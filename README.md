@@ -2,12 +2,9 @@
 
 This is the assignment the project was created for 
 
-  Project 5     COSC 501/AIT 500  Fall 2013                        Professor: H. Zhou         Due: Nov/30/2013 
+**COSC 501 at Towson University**
  
- 
- 
- Write a program that plays the game of HANGMAN(guessing a mystery word).  Read a word to be guessed from a file into successive elements of the array WORD. The player must guess the letters belonging to WORD. A single guessing session should be terminated when either all letters have been guessed correctly (player wins) or a specified number of incorrect guesses have been made (computer wins). A run must consist of at least two sessions: one player wins and one computer wins. The player decides whether or not to start a new session.  
- 
+Write a program that plays the game of HANGMAN(guessing a mystery word).  Read a word to be guessed from a file into successive elements of the array WORD. The player must guess the letters belonging to WORD. A single guessing session should be terminated when either all letters have been guessed correctly (player wins) or a specified number of incorrect guesses have been made (computer wins). A run must consist of at least two sessions: one player wins and one computer wins. The player decides whether or not to start a new session.  
  
  
 Hints:   Use an array  SOLUTION to keep track of the solution generated  so far. Initialize SOLUTION to a string of symbols "*". Each time a letter of WORD is guessed, replace the corresponding "*" in SOLUTION with that letter. For example, cin >> Guess; if (Guess == WORD[index]) {SOLUTION[index] = Guess} 
